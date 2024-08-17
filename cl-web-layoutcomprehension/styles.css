@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-size: 1.75rem;
+    padding: 2rem 6rem;
+}
+
+nav {
+    background-color: #000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.25rem 1.25rem;
+    padding-right: 8rem;
+
+    li {
+        list-style-type: none;
+    }
+}
+
+main {
+    display: flex;
+}
+
+article {
+    padding: 1rem 6rem;
+    padding-right: 2rem;
+    font-size: 1.4rem;
+}
+
+.boldHeader {
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+article > img {
+    width: 400px;
+    float: left;
+    margin: 1rem;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.imgContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 420px;
+}
+
+aside {
+    margin-top: 1rem;
+}
+
+aside img {
+    width: 200px;
+}
