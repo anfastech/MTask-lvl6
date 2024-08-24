@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Greeting | web APIs</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1> </h1>
+      <form>
+        <div class="remember">
+          <label for="entername">Enter your name:</label>
+          <input style="height: 20px;border-radius: 4px;" id="entername" type="text" required>
+          <input id="submitname" type="submit" value="Say hello">
+        </div>
+        <div class="forget">
+          <label for="forgetname">Want me to forget you?</label>
+          <input id="forgetname" type="reset" value="Forget">
+        </div>
+      </form>
+    </header>
+    <main>
+      <p class="personal-greeting">Welcome to Cyera, your gateway to cutting-edge technology and innovation!</p>
+      <p id="story">
+        In the ever-evolving world of technology, there was a visionary innovator named <span id="user-name"></span>. Driven by Cyera's commitment to pushing the boundaries of tech, <span id="user-name"></span> embarked on a journey to explore new horizons. With every breakthrough, <span id="user-name"></span> contributed to shaping a future where technology transforms lives and inspires endless possibilities...
+      </p>
+      <section id="about">
+        <h2><span id="user-name"></span>About Cyera</h2>
+        <ul id="services-list">
+          <li>Innovative Software Solutions</li>
+          <li>Cutting-edge AI and Machine Learning</li>
+          <li>Robust Cloud Computing Services</li>
+          <li>Seamless User Experience Design</li>
+          <li>Comprehensive Cybersecurity Solutions</li>
+        </ul>
+      </section>
+    </main> 
+    <footer>
+      <p>&copy; 2024 Mohammed Anfas K P. All rights reserved.
+    </footer>
+  </body>
+</html>
